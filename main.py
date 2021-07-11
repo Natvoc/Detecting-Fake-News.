@@ -36,7 +36,8 @@ PassiveAggressiveClassifier(max_iter=50)
 #Accuracy
 y_pred=pac.predict(tfidf_test)
 score=accuracy_score(y_test,y_pred)
-print(f'Accuracy: {round(score*100,2)}%')
+#print(f'Accuracy: {round(score*100,2)}%')
 
 #Confusion Matrix
-confusion_matrix(y_test,y_pred, labels=['FAKE','REAL'])
+resultado = confusion_matrix(y_test,y_pred, labels=['FAKE','REAL'])
+print (resultado)
