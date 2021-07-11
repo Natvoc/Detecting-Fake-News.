@@ -15,7 +15,8 @@ El archivo CSV para pruebas se puede descargar aquí https://drive.google.com/fi
 - Más funcionalidades
 - Funcionalidad con español
 - UI con Flask, HTML y CSS
-- Despliegue en AWS
+- Scraping con link
+- Despliegue en AWS / Azure
 
   
 
