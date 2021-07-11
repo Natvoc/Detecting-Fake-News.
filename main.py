@@ -33,7 +33,10 @@ pac=PassiveAggressiveClassifier(max_iter=50)
 pac.fit(tfidf_train,y_train)
 PassiveAggressiveClassifier(max_iter=50)
 
-#Predecir en calculo de Accuracy
+#Accuracy
 y_pred=pac.predict(tfidf_test)
 score=accuracy_score(y_test,y_pred)
 print(f'Accuracy: {round(score*100,2)}%')
+
+#Confusion Matrix
+confusion_matrix(y_test,y_pred, labels=['FAKE','REAL'])
