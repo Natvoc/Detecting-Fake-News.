@@ -13,9 +13,10 @@ El archivo CSV para pruebas se puede descargar aquí https://drive.google.com/fi
 # Próximamente
 
 - Más funcionalidades
-- Funcionalidad con español
+- Recepción de noticias en español
 - UI con Flask, HTML y CSS
-- Scraping con link
+- Scraping a noticias
+- Pegar link de notícias Q
 - Despliegue en AWS / Azure
 
   
